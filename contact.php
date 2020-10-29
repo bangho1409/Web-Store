@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Contact</title>
-	<link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 	<link href='http://fonts.googleapis.com/css?family=Londrina+Solid|Coda+Caption:800|Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="../css/normalize.css">
 </head>
@@ -116,8 +116,8 @@
 				<div class="col_1_of_4 span_1_of_4 footer-lastgrid">
 					<h3>Follow Us:</h3>
 					 <ul>
-						<li><a href="https://twitter.com" target="_blank"><img src="../images/twitter.png" weight="30" height="30" title="twitter" />Twitter</a></li>
-						<li><a href="https://www.facebook.com" target="_blank"><img src="../images/facebook.png"  weight="50" height="50" title="Facebook"/>Facebook</a></li>
+						<li><a href="https://twitter.com" target="_blank"><img src="images/twitter.png" weight="30" height="30" title="twitter" />Twitter</a></li>
+						<li><a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png"  weight="50" height="50" title="Facebook"/>Facebook</a></li>
 					 </ul>
 				</div>
 </html>

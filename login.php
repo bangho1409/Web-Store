@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Checkout</title>
-	<link rel="stylesheet" href="../css/loginform.css">
-	<link rel="stylesheet" href="../css/normalize.css">
-	<link href="../css/style.css" rel="stylesheet" type="text/css"  media="all"/>
+	<link rel="stylesheet" href="css/loginform.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link href="css/style.css" rel="stylesheet" type="text/css"  media="all"/>
 	<link href='http://fonts.googleapis.com/css?family=Londrina+Solid|Coda+Caption:800|Open+Sans' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -18,7 +18,7 @@
 				<li class="selected"><a href="contact.php">Contact us</a></li>
 			</ul>
 		</div>
-<form  action="../index1.php" method="post" 
+<form  action="index1.php" method="post" 
   <div class="imgcontainer">
   <div class="container">
     <label for="uname"><b>Username</b></label>

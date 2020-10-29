@@ -4,8 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cart</title>
-	<link rel="stylesheet" href="../css/normalize.css">
-	<link href="../css/style.css" rel="stylesheet" type="text/css"  media="all"/>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link href="css/style.css" rel="stylesheet" type="text/css"  media="all"/>
 	<link href='http://fonts.googleapis.com/css?family=Londrina+Solid|Coda+Caption:800|Open+Sans' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -50,15 +50,15 @@
 		    			<div class="blog-grid-header">
 		    				<h3>Total Number&nbsp&nbsp&nbsp:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp1</h3>
 		    				<ul>
-								<li><a href="single.php">Mac Lipstick</a></li>
+								<li><a href="single.php">Product 01</a></li>
 		    				</ul>
 		    			</div>
 		    			<div class="image group">
 							<div class="grid images_3_of_1">
-								<img src="../img/image01.jpg">
+								<img src="img/image01.jpg">
 							</div>
 							<div class="grid span_2_of_3">
-								<p><b>PRODUCT NAME: MAC Lipstick</b><br><br><br>
+								<p><b>PRODUCT NAME: Product 01</b><br><br><br>
 									Cost: $200 (+VAT 5%)<br><br>
 									<b>Total cost: $210</b>
 								</p>
@@ -74,10 +74,11 @@
 				<h4>Categories</h4>
 					<ul>
             <li><a href="index.php">Deals</a></li>
-						<li><a href="index.php">Tools</a></li>
-						<li><a href="index.php">Sports</a></li>
-						<li><a href="index.php">Clothes</a></li>
-						<li><a href="index.php">Shoes</a></li>
+						<li><a href="index.php">Deals</a></li>
+						<li><a href="index.php">Hot</a></li>
+						<li><a href="index.php">Boy</a></li>
+						<li><a href="index.php">Girl</a></li>
+						<li><a href="index.php">Baby</a></li>
 					</ul>
 			</div>
 		</div>
@@ -102,9 +103,12 @@
         <div class="col_1_of_4 span_1_of_4 footer-lastgrid">
           <h3>Follow Us:</h3>
            <ul>
-            <li><a href="https://twitter.com" target="_blank"><img src="../images/twitter.png" weight="30" height="30" title="twitter" />Twitter</a></li>
-            <li><a href="https://www.facebook.com" target="_blank"><img src="../images/facebook.png"  weight="50" height="50" title="Facebook"/>Facebook</a></li>
+            <li><a href="https://twitter.com" target="_blank"><img src="images/twitter.png" weight="30" height="30" title="twitter" />Twitter</a></li>
+            <li><a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png"  weight="50" height="50" title="Facebook"/>Facebook</a></li>
            </ul>
         </div>
+		</div>
+		</div>
+		</div>
 </body>
 </html>

@@ -1,7 +1,6 @@
 <?php 
-	echo '<a href="/webbb/productCRUD.php"</a>';
-	echo '<a href="/webbb/dbconnect.php"</a>';
-	
+	include('productCRUD.php');
+	include('dbconnect.php');	
 ?>
 
 <html>
@@ -10,7 +9,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Shopping</title>
-	<link href="../css/style.css" rel="stylesheet" type="text/css"  media="all"/>
+	<link href="css/style.css" rel="stylesheet" type="text/css"  media="all"/>
 	<link href='http://fonts.googleapis.com/css?family=Londrina+Solid|Coda+Caption:800|Open+Sans' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -56,7 +55,7 @@
 		    	<h4>Deals of this month</h4></a>
 		    	<div class="section group">
 					<div class="grid_1_of_4 images_1_of_4 products-info">
-						<img src="..\img\image01.jpg" weidgh="150" height="150">
+						<img src="img\image01.jpg" weidgh="150" height="150">
 						<a href="single.php">Product 01</a>
 						<h3>$200</h3>
 						<ul>
@@ -65,7 +64,7 @@
 						</ul>
 					</div>
 					<div class="grid_1_of_4 images_1_of_4 products-info">
-						<img src="..\img\image02.jpg" weidgh="150" height="150">
+						<img src="img\image02.jpg" weidgh="150" height="150">
 						<a href="single.php">Product 02</a>
 						<h3>$200</h3>
 						<ul>
@@ -74,7 +73,7 @@
 						</ul>
 					</div>
 					<div class="grid_1_of_4 images_1_of_4 products-info">
-						<img src="..\img\image03.jpg"weidgh="150" height="150">
+						<img src="img\image03.jpg"weidgh="150" height="150">
 						<a href="single.php">Product 03</a>
 						<h3>$500</h3>
 						<ul>
@@ -83,7 +82,7 @@
 						</ul>
 					</div>
 					<div class="grid_1_of_4 images_1_of_4 products-info">
-						<img src="..\img\image04.jpg" weidgh="150" height="150">
+						<img src="img\image04.jpg" weidgh="150" height="150">
 						<a href="single.php">Product 04</a>
 						<h3>$600</h3>
 						<ul>
@@ -95,7 +94,7 @@
 				<h4>New Arrival</h4></a>
 				<div class="section group">
 					<div class="grid_1_of_4 images_1_of_4 products-info">
-						<img src="..\img\image05.jpg" weidgh="150" height="150">
+						<img src="img\image05.jpg" weidgh="150" height="150">
 						<a href="single.php">Product 05</a>
 						<h3>$250</h3>
 						<ul>
@@ -104,7 +103,7 @@
 						</ul>
 					</div>
 					<div class="grid_1_of_4 images_1_of_4 products-info">
-						<img src="..\img\image06.jpg" weidgh="150" height="150">
+						<img src="img\image06.jpg" weidgh="150" height="150">
 						<a href="single.php">Product 06</a>
 						<h3>$300</h3>
 						<ul>
@@ -113,7 +112,7 @@
 						</ul>
 					</div>
 					<div class="grid_1_of_4 images_1_of_4 products-info">
-						<img src="..\img\image07.jpg" weidgh="150" height="150">
+						<img src="img\image07.jpg" weidgh="150" height="150">
 						<a href="single.php">Product 07</a>
 						<h3>$350</h3>
 						<ul>
@@ -122,7 +121,7 @@
 						</ul>
 					</div>
 					<div class="grid_1_of_4 images_1_of_4 products-info">
-						<img src="..\img\image08.jpg"weidgh="150" height="150">
+						<img src="img\image08.jpg"weidgh="150" height="150">
 						<a href="single.php">Product 08</a>
 						<h3>$600</h3>
 						<ul>
@@ -163,8 +162,8 @@
 			<div class="col_1_of_4 span_1_of_4 footer-lastgrid">
 				<h3>Follow Us:</h3>
 				 <ul>
-					<li><a href="https://twitter.com" target="_blank"><img src="../images/twitter.png" weight="30" height="30" title="twitter" />Twitter</a></li>
-					<li><a href="https://www.facebook.com" target="_blank"><img src="../images/facebook.png"  weight="50" height="50" title="Facebook"/>Facebook</a></li>
+					<li><a href="https://twitter.com" target="_blank"><img src="images/twitter.png" weight="30" height="30" title="twitter" />Twitter</a></li>
+					<li><a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png"  weight="50" height="50" title="Facebook"/>Facebook</a></li>
 				 </ul>
 			</div>
 		</div>

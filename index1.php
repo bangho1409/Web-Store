@@ -36,6 +36,7 @@
 <body>
 	<div class="container">
 	<td><a href="insert.php">Add New</a></td>
+	<td><a href="index.php">Shop</a></td>
 		<table class="table table-striped">
 			<tr>
 				<th>Product ID</th>
